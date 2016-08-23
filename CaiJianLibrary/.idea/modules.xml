@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CaiJianLibrary.iml" filepath="$PROJECT_DIR$/CaiJianLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GoodLife.iml" filepath="$PROJECT_DIR$/../GoodLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Jazzylibrary/Jazzylibrary.iml" filepath="$PROJECT_DIR$/../Jazzylibrary/Jazzylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PhotoViewLibrary/PhotoViewLibrary.iml" filepath="$PROJECT_DIR$/../PhotoViewLibrary/PhotoViewLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../alertdialogpro-core/alertdialogpro-core.iml" filepath="$PROJECT_DIR$/../alertdialogpro-core/alertdialogpro-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../alertdialogpro-theme-holo/alertdialogpro-theme-holo.iml" filepath="$PROJECT_DIR$/../alertdialogpro-theme-holo/alertdialogpro-theme-holo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../alertdialogpro-theme-material/alertdialogpro-theme-material.iml" filepath="$PROJECT_DIR$/../alertdialogpro-theme-material/alertdialogpro-theme-material.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../animation1/animation1.iml" filepath="$PROJECT_DIR$/../animation1/animation1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../app/app.iml" filepath="$PROJECT_DIR$/../app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../floatingactionbuttonlibrary/floatingactionbuttonlibrary.iml" filepath="$PROJECT_DIR$/../floatingactionbuttonlibrary/floatingactionbuttonlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../imagelibrary/imagelibrary.iml" filepath="$PROJECT_DIR$/../imagelibrary/imagelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library1/library1.iml" filepath="$PROJECT_DIR$/../library1/library1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../library2/library2.iml" filepath="$PROJECT_DIR$/../library2/library2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pinYin4JLibrary/pinYin4JLibrary.iml" filepath="$PROJECT_DIR$/../pinYin4JLibrary/pinYin4JLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rongIMKit/rongIMKit.iml" filepath="$PROJECT_DIR$/../rongIMKit/rongIMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xUtils322/xUtils322.iml" filepath="$PROJECT_DIR$/../xUtils322/xUtils322.iml" />
+    </modules>
+  </component>
+</project>

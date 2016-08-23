@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myOrder_item"
+            android:icon="@drawable/ic_my_order_black"
+            android:title="@string/my_order" />
+        <item
+            android:id="@+id/manageAddress_item"
+            android:icon="@drawable/manage_address_selector"
+            android:title="@string/manage_address"/>
+        <item
+            android:id="@+id/contactWay_item"
+            android:icon="@drawable/contact_way_selector"
+            android:title="@string/contact_way" />
+        <item
+            android:id="@+id/modifyPassword_item"
+            android:icon="@drawable/modify_password_selector"
+            android:title="@string/modify_password" />
+        <item
+            android:id="@+id/updateApp_item"
+            android:icon="@drawable/update_app_selector"
+            android:title="@string/update_app" />
+        <item
+            android:id="@+id/about_item"
+            android:icon="@drawable/about_selector"
+            android:title="@string/about" />
+    </group>
+
+
+</menu>

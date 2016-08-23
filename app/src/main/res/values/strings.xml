@@ -1,0 +1,85 @@
+<resources>
+    <!--app名称-->
+    <string name="app_name">微企</string>
+    <!--菜单-->
+    <string name="action_settings">设置</string>
+    <string name="action_custom_service">客服</string>
+    <string name="action_scan">扫一扫</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!--tab-->
+    <string name="tab_honeycomb">蜂巢</string>
+    <string name="tab_workorder">工单</string>
+    <string name="tab_myplaces">我</string>
+    <!--个人中心-->
+    <string name="me_register">登录/注册</string>
+    <string name="me_logined">北京伊人依美科技有限公司</string>
+    <string name="exit_btn">退出</string>
+    <string name="my_setmeal">我的套餐</string>
+    <string name="manage_address">地址管理</string>
+    <string name="contact_way">联系方式</string>
+    <string name="modify_password">修改密码</string>
+    <string name="update_app">应用更新</string>
+    <string name="about">关于</string>
+    <string name="service_package">服务套餐</string>
+    <string name="set_company">公司新设</string>
+    <string name="company_enter">公司入驻</string>
+    <string name="commerce">工商</string>
+    <string name="tax_accounting">记账报税</string>
+    <string name="social_security_fund">社保公积金</string>
+    <string name="archive">公司档案</string>
+    <string name="law">政策法规</string>
+    <string name="tool_case">工具箱</string>
+    <!-- 登录 -->
+    <string name="prompt_phone">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_login">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_phone">账号无效</string>
+    <string name="error_invalid_password">密码最少4位</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="find_password"><![CDATA[找回密码>]]></string>
+    <string name="regist">注册</string>
+    <string name="action_next">下一步</string>
+    <string name="phone_introduce">您的手机号将用于验证,请注意接收短信验证码</string>
+    <string name="get_identifyingcode">获取验证码</string>
+    <string name="identifyingcode_hint">已向您的手机号发送了4位数字验证码,请收到后填写</string>
+    <string name="prompt_identifyingcode">验证码</string>
+    <string name="write_identifyingcode">填写验证码</string>
+    <string name="write_phone">填写手机号</string>
+    <string name="set_name_password">设置用户名和密码</string>
+    <string name="prompt_name">用户名</string>
+    <string name="prompt_confirm_password">确认密码</string>
+    <string name="error_confirmpassword">确认密码错误</string>
+    <string name="write_email">设置邮箱</string>
+    <string name="email_introduce">为方便业务办理,需要您的电子邮箱</string>
+    <string name="prompt_email">邮箱</string>
+    <string name="action_done">完成</string>
+    <string name="my_order">我的订单</string>
+    <string name="set_password">设置密码</string>
+    <string name="action_save">保存</string>
+    <string name="contactinfo_hint">客服将通过此联系方式与您联系,请谨慎修改</string>
+    <string name="name">姓名</string>
+    <string name="contactinfo_hint2">姓名一旦审核通过,前端不可以更改,法人联系信息也是当前用户的联系信息.即认为当前用户即为法人</string>
+    <string name="add">新增</string>
+    <string name="login_success">登陆成功</string>
+    <string name="regist_success">注册成功</string>
+    <string name="email_invalid">邮箱无效</string>
+    <string name="modify_password_success">密码修改成功</string>
+    <string name="modify_phone_success">手机号修改成功</string>
+    <string name="modify_email_success">邮箱修改成功</string>
+    <string name="prompt_addressee">收件人</string>
+    <string name="prompt_province">省份</string>
+    <string name="prompt_city">城市</string>
+    <string name="prompt_district">县(区)</string>
+    <string name="prompt_detail_address">详细地址</string>
+    <string name="default_address">设为默认地址</string>
+    <string name="add_address">新增地址</string>
+    <string name="add_address_success">新增地址成功</string>
+    <string name="edit_address">编辑地址</string>
+    <string name="operate_success">操作成功</string>
+
+</resources>

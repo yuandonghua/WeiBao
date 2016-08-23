@@ -1,0 +1,191 @@
+<resources>
+    <!--app名称-->
+    <string name="app_name">微宝</string>
+    <!--菜单-->
+    <string name="action_settings">设置</string>
+    <string name="action_custom_service">客服</string>
+    <string name="action_scan">扫一扫</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!--tab-->
+    <string name="tab_honeycomb">蜂巢</string>
+    <string name="tab_workorder">工单</string>
+    <string name="tab_myplaces">我</string>
+    <!--个人中心-->
+    <string name="me_register">登录/注册</string>
+    <string name="me_logined">北京伊人依美科技有限公司</string>
+    <string name="exit_btn">退出</string>
+    <string name="my_setmeal">我的套餐</string>
+    <string name="manage_address">地址管理</string>
+    <string name="contact_way">联系方式</string>
+    <string name="modify_password">修改密码</string>
+    <string name="update_app">应用更新</string>
+    <string name="about">关于微宝</string>
+    <string name="service_package">服务套餐</string>
+    <string name="set_company">公司设立</string>
+    <string name="company_enter">公司入驻</string>
+    <string name="commerce">工商服务</string>
+    <string name="financial_services">财务服务</string>
+    <string name="social_security_fund">社保公积金</string>
+    <string name="archive">公司档案</string>
+    <string name="law">政策法规</string>
+    <string name="tool_case">工具箱</string>
+    <!-- 登录 -->
+    <string name="prompt_phone">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_login">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_invalid_phone">账号无效</string>
+    <string name="error_invalid_password">密码最少4位</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="permission_rationale">"请允许权限"</string>
+    <string name="find_password"><![CDATA[找回密码>]]></string>
+    <string name="regist">注册</string>
+    <string name="action_next">下一步</string>
+    <string name="phone_introduce">您的手机号将用于验证,请注意接收短信验证码</string>
+    <string name="get_identifyingcode">获取验证码</string>
+    <string name="identifyingcode_hint">已向您的手机号发送了4位数字验证码,请收到后填写</string>
+    <string name="prompt_identifyingcode">验证码</string>
+    <string name="write_identifyingcode">填写验证码</string>
+    <string name="write_phone">填写手机号</string>
+    <string name="set_name_password">设置用户名和密码</string>
+    <string name="prompt_name">用户名</string>
+    <string name="prompt_confirm_password">确认密码</string>
+    <string name="error_confirmpassword">确认密码错误</string>
+    <string name="write_email">设置邮箱</string>
+    <string name="email_introduce">为方便业务办理,需要您的电子邮箱</string>
+    <string name="prompt_email">邮箱</string>
+    <string name="action_done">完成</string>
+    <string name="my_order">我的订单</string>
+    <string name="set_password">设置密码</string>
+    <string name="action_save">保存</string>
+    <string name="contactinfo_hint">客服将通过此联系方式与您联系,请谨慎修改</string>
+    <string name="name">姓名</string>
+    <string name="contactinfo_hint2">姓名一旦审核通过,前端不可以更改,法人联系信息也是当前用户的联系信息.即认为当前用户即为法人</string>
+    <string name="add">新增</string>
+    <string name="login_success">登陆成功</string>
+    <string name="regist_success">注册成功</string>
+    <string name="email_invalid">邮箱无效</string>
+    <string name="modify_password_success">密码修改成功</string>
+    <string name="modify_phone_success">手机号修改成功</string>
+    <string name="modify_email_success">邮箱修改成功</string>
+    <string name="prompt_addressee">收件人</string>
+    <string name="prompt_province">省份</string>
+    <string name="prompt_city">城市</string>
+    <string name="prompt_district">县(区)</string>
+    <string name="prompt_detail_address">详细地址</string>
+    <string name="default_address">设为默认地址</string>
+    <string name="add_address">新增地址</string>
+    <string name="add_address_success">新增地址成功</string>
+    <string name="edit_address">编辑地址</string>
+    <string name="operate_success">操作成功</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="phone_number">400-888888</string>
+    <string name="customservice_desc">请致电</string>
+    <string name="call_phone">拨打</string>
+    <string name="my_workerorder">我的工单</string>
+    <string name="human_service">人力服务</string>
+    <string name="receipt">开票</string>
+    <string name="account">记账</string>
+    <string name="income_this_month">本月收入</string>
+    <string name="expenditure_this_month">本月支出</string>
+    <string name="balance_this_month">本月差额</string>
+    <string name="estimated_tax_this_month">预计缴税</string>
+    <string name="tab_plain_invoice">普通发票</string>
+    <string name="tab_special_invoice">专票</string>
+    <string name="prompt_invoice_header">发票抬头</string>
+    <string name="prompt_project">开票项目</string>
+    <string name="prompt_money">金额</string>
+    <string name="prompt_consignee">收件人</string>
+    <string name="prompt_address">地址</string>
+    <string name="prompt_contact_number">联系电话</string>
+    <string name="action_submit">提交</string>
+    <string name="prompt_company_name">公司名称</string>
+    <string name="prompt_duty_paragraph">税号</string>
+    <string name="prompt_account_bank_account">开户行帐号</string>
+    <string name="prompt_account_bank">开户行</string>
+    <string name="prompt_contact_address">联系地址</string>
+    <string name="prompt_consignee_address">收件人地址</string>
+    <string name="prompt_consignee_contact_number">收件人电话</string>
+    <string name="prompt_invoice_money">票据面值总额</string>
+    <string name="prompt_invoice_number">票据张数</string>
+    <string name="prompt_transport_number">运单号</string>
+    <string name="prompt_express_company">快递公司</string>
+    <string name="company_files">公司档案</string>
+    <string name="workorder">工单</string>
+    <string name="prompt_juridical_person">法人</string>
+    <string name="prompt_juridical_person_name">法人姓名</string>
+    <string name="prompt_juridical_person_id">法人身份证号</string>
+    <string name="prompt_id_front">身份证正面</string>
+    <string name="prompt_id_back">身份证反面</string>
+    <string name="prompt_scope_of_business">请选择经营范围</string>
+    <string name="prompt_first_name">首选字号</string>
+    <string name="prompt_alternative_name">备选字号</string>
+    <string name="error_invalid">无效</string>
+    <string name="create_company_process">公司设立流程</string>
+    <string name="business_licence">营业执照</string>
+    <string name="prompt_credit_code">信用代码</string>
+    <string name="prompt_company_type">公司类型</string>
+    <string name="prompt_company_address">公司地址</string>
+    <string name="prompt_registered_capital">注册资本</string>
+    <string name="prompt_date_establishment">成立日期</string>
+    <string name="prompt_operating_period">营业期限</string>
+    <string name="prompt_department">等级机关</string>
+    <string name="prompt_business_licence_original">营业执照扫描正本</string>
+    <string name="prompt_business_licence_carbon">营业执照扫描副本</string>
+    <string name="modify_company_name">修改公司字号</string>
+    <string name="steward_remind">管家提醒</string>
+    <string name="modify_company_other_info">修改其他信息</string>
+    <string name="supplementary_company_info">补充公司资料</string>
+    <string name="prompt_juridical_person_sex">法人性别</string>
+    <string name="juridical_info">法人信息</string>
+    <string name="prompt_zhuzhi">住址</string>
+    <string name="prompt_banzhengjiguan">办证机关</string>
+    <string name="title_shareholding_structure">股权结构</string>
+    <string name="title_organization_structure">组织结构</string>
+    <!--公司经营范围-->
+    <string-array name="scope_of_business_1">
+        <item>商贸</item>
+        <item>科技</item>
+        <item>信息咨询</item>
+        <item>百货</item>
+    </string-array>
+    <!--商贸经营范围-->
+    <string-array name="sm">
+        <item>建材批发</item>
+        <item>五金零售</item>
+        <item>服装批发</item>
+        <item>服装零售</item>
+        <item>百货零售</item>
+        <item>文具用品批发</item>
+    </string-array>
+    <!--科技经营范围-->
+    <string-array name="kj">
+        <item>软件开发</item>
+        <item>科技中介服务</item>
+        <item>节能技术推广服务</item>
+        <item>新材料技术推广服务</item>
+        <item>农业技术推广服务</item>
+        <item>生物技术推广服务</item>
+    </string-array>
+    <!--信息咨询经营范围-->
+    <string-array name="xxzx">
+        <item>社会经济咨询</item>
+        <item>其他专业咨询</item>
+        <item>科技中介服务</item>
+        <item>国际信息咨询服务</item>
+        <item>日用品信息咨询服务</item>
+        <item>医药信息咨询</item>
+    </string-array>
+    <!--百货经营范围-->
+    <string-array name="bh">
+        <item>百货零售</item>
+        <item>其他日用品零售</item>
+        <item>服装零售</item>
+        <item>超级市场零售</item>
+        <item>其他家庭用品批发</item>
+        <item>鞋帽零售</item>
+    </string-array>
+</resources>

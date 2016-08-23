@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../Jazzylibrary" />
+            <option value="$PROJECT_DIR$/../PhotoViewLibrary" />
+            <option value="$PROJECT_DIR$/../alertdialogpro-core" />
+            <option value="$PROJECT_DIR$/../alertdialogpro-theme-holo" />
+            <option value="$PROJECT_DIR$/../alertdialogpro-theme-material" />
+            <option value="$PROJECT_DIR$/../animation1" />
+            <option value="$PROJECT_DIR$/../app" />
+            <option value="$PROJECT_DIR$/../floatingactionbuttonlibrary" />
+            <option value="$PROJECT_DIR$/../imagelibrary" />
+            <option value="$PROJECT_DIR$/../library1" />
+            <option value="$PROJECT_DIR$/../library2" />
+            <option value="$PROJECT_DIR$/../pinYin4JLibrary" />
+            <option value="$PROJECT_DIR$/../rongIMKit" />
+            <option value="$PROJECT_DIR$/../xUtils322" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

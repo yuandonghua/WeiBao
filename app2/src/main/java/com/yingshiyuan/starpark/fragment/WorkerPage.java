@@ -1,0 +1,98 @@
+package com.yingshiyuan.starpark.fragment;
+
+import android.app.Activity;
+import android.os.Handler;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.Toast;
+
+import com.yingshiyuan.starpark.R;
+import com.yingshiyuan.starpark.adapter.ShareHolderAdapter;
+import com.yingshiyuan.starpark.adapter.StewardRemindAdapter;
+import com.yingshiyuan.starpark.adapter.WorkerAdapter;
+import com.yingshiyuan.starpark.data.ShareHolder;
+import com.yingshiyuan.starpark.data.Worker;
+import com.yingshiyuan.starpark.http.CompanyHttp;
+import com.yingshiyuan.starpark.http.HttpIdentifyingCodeUtil;
+import com.yingshiyuan.starpark.utils.ManageUserDataUtil;
+
+import java.util.ArrayList;
+
+/**
+ * @description:职工界面
+ * @author:袁东华 created at 2016/7/29 0029 下午 4:51
+ */
+public class WorkerPage {
+    private static WorkerPage instance;
+    private View view = null;
+    private Activity activity = null;
+    private WorkerAdapter workerAdapter;
+    private ArrayList<Worker> list = new ArrayList<>();
+
+    private WorkerPage() {
+    }
+
+    public void start(Activity activity, View view) {
+        if (view != null && activity != null && (this.view == null && this.activity == null)) {
+            this.activity = activity;
+            this.view = view;
+            initView();
+            initData();
+        }
+    }
+
+    public View getView() {
+        return view;
+    }
+
+    private void initData() {
+        list.add(new Worker());
+        workerAdapter.setList(list);
+    }
+
+    private void initView() {
+        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(activity, LinearLayoutManager.VERTICAL, false));
+//        recyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(
+//                activity)
+//                .color(getResources().getColor(R.color.black_14))
+//                .size(activity.getResources().getDimensionPixelSize(
+//                        R.dimen.divider_2dp))
+//                .build());
+        workerAdapter = new WorkerAdapter(activity);
+        recyclerView.setAdapter(workerAdapter);
+
+
+    }
+
+    public void attemptSubmit(Handler handler, String comp_id) {
+        if (workerAdapter != null) {
+            list = workerAdapter.getList();
+            for (Worker sh : list) {
+                if (sh != null && !"".equals(sh.getName()) && !"".equals(sh.getIdno()) && !"".equals(sh.getPosition())
+                        && !"".equals(sh.getAddress()) && !"".equals(sh.getOrig_way())) {
+                    CompanyHttp.getInstance().supplementaryWorker(handler,
+                            ManageUserDataUtil.getInstance().getUserId(activity), comp_id,
+                            sh.getName(), sh.getIdno(), sh.getPosition(), sh.getAddress(), sh.getOrig_way(),
+                            HttpIdentifyingCodeUtil.SUPPLEMENTARY_WORKER_S,
+                            HttpIdentifyingCodeUtil.SUPPLEMENTARY_WORKER_F);
+                } else {
+//                    Toast.makeText(activity, "请填写完整职工信息", Toast.LENGTH_SHORT).show();
+                }
+            }
+        }
+    }
+
+    public static WorkerPage getInstance() {
+        if (instance == null) {
+            synchronized (WorkerPage.class) {
+                if (instance == null) {
+                    instance = new WorkerPage();
+                }
+            }
+        }
+
+        return instance;
+    }
+}

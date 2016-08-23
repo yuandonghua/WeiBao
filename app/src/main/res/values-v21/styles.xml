@@ -1,0 +1,20 @@
+<resources>
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+        <!--&lt;!&ndash;标题文字和图标设为白色&ndash;&gt;-->
+        <!--<item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimary</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="actionOverflowMenuStyle">@style/PopupMenu</item>-->
+
+    <!--</style>-->
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!--状态栏背景色-->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+    </style>
+</resources>
