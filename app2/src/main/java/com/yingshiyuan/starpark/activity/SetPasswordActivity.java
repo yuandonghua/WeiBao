@@ -20,9 +20,10 @@ import com.yingshiyuan.starpark.utils.MD5Util;
 import com.yingshiyuan.starpark.utils.SharedPreferencesUtil;
 
 import org.xutils.view.annotation.ContentView;
-
 /**
- * 设置密码
+ *@description:设置密码修改密码界面
+ *@author:袁东华
+ *created at 2016/8/27 0027 上午 10:56
  */
 @ContentView(R.layout.activity_set_password)
 public class SetPasswordActivity extends BaseActivity {

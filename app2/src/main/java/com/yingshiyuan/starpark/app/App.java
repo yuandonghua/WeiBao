@@ -1,7 +1,8 @@
-package com.yingshiyuan.starpark;
+package com.yingshiyuan.starpark.app;
 
 import android.app.Application;
 
+import com.yingshiyuan.starpark.BuildConfig;
 import com.yingshiyuan.starpark.utils.CrashHandler;
 
 import org.xutils.x;
@@ -17,6 +18,6 @@ public class App extends Application {
         super.onCreate();
 //        CrashHandler.getInstance();
         x.Ext.init(this);
-        x.Ext.setDebug(BuildConfig.DEBUG); // 是否输出debug日志, 开启debug会影响性能.
+        x.Ext.setDebug(true); // 是否输出debug日志, 开启debug会影响性能.
     }
 }
